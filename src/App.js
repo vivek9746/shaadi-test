@@ -3,13 +3,13 @@ import Dashboard from './component/dashboard';
 import Login from './component/login'
 import Register from './component/register'
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router,HashRouter, Switch, Route} from 'react-router-dom'
 
 export default function App() {
 
   return (
 
-    <Router>
+    <HashRouter basename="/">
     <div>
       <Switch>
         <Route path='/' exact component={Login}/>
@@ -20,7 +20,7 @@ export default function App() {
  
 
     </div>
-    </Router>
+    </HashRouter>
 
   )
 }
