@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/shaadi-test/static/css/main.27472c1c.chunk.css",
-    "main.js": "/shaadi-test/static/js/main.f3656145.chunk.js",
-    "main.js.map": "/shaadi-test/static/js/main.f3656145.chunk.js.map",
+    "main.js": "/shaadi-test/static/js/main.89f0cc1c.chunk.js",
+    "main.js.map": "/shaadi-test/static/js/main.89f0cc1c.chunk.js.map",
     "runtime-main.js": "/shaadi-test/static/js/runtime-main.19e7f5dc.js",
     "runtime-main.js.map": "/shaadi-test/static/js/runtime-main.19e7f5dc.js.map",
-    "static/js/2.7233acd0.chunk.js": "/shaadi-test/static/js/2.7233acd0.chunk.js",
-    "static/js/2.7233acd0.chunk.js.map": "/shaadi-test/static/js/2.7233acd0.chunk.js.map",
+    "static/js/2.8eb9e3fc.chunk.js": "/shaadi-test/static/js/2.8eb9e3fc.chunk.js",
+    "static/js/2.8eb9e3fc.chunk.js.map": "/shaadi-test/static/js/2.8eb9e3fc.chunk.js.map",
     "static/js/3.0bb86a39.chunk.js": "/shaadi-test/static/js/3.0bb86a39.chunk.js",
     "static/js/3.0bb86a39.chunk.js.map": "/shaadi-test/static/js/3.0bb86a39.chunk.js.map",
     "index.html": "/shaadi-test/index.html",
     "static/css/main.27472c1c.chunk.css.map": "/shaadi-test/static/css/main.27472c1c.chunk.css.map",
-    "static/js/2.7233acd0.chunk.js.LICENSE.txt": "/shaadi-test/static/js/2.7233acd0.chunk.js.LICENSE.txt"
+    "static/js/2.8eb9e3fc.chunk.js.LICENSE.txt": "/shaadi-test/static/js/2.8eb9e3fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.19e7f5dc.js",
-    "static/js/2.7233acd0.chunk.js",
+    "static/js/2.8eb9e3fc.chunk.js",
     "static/css/main.27472c1c.chunk.css",
-    "static/js/main.f3656145.chunk.js"
+    "static/js/main.89f0cc1c.chunk.js"
   ]
 }
