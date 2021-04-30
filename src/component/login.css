@@ -1,0 +1,45 @@
+form{
+    width: 100%;
+
+}
+form input{
+    width: 100%;
+    font-size: clamp(20px, 4vw, 90px);
+    
+}
+.parentOfLogin{
+    position: relative;
+}
+.loginButton{
+    position: absolute;
+    right: 0;
+    margin-top: 2em;
+    color: white;
+    padding: 1em 3em;
+    background-color: rgb(80, 145, 90);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    
+}
+.loginButton:hover{
+    cursor: pointer;
+    background-color: rgb(72, 165, 87);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+}
+.registerButton{
+    position: absolute;
+    right: 0;
+    margin-top: 2em;
+    color: white;
+    padding: 1em 3em;
+    background-color: rgb(172, 150, 80);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    
+}
+.registerButton:hover{
+    background-color: rgb(201, 176, 95);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+}
