@@ -35,12 +35,15 @@ function Dashboard() {
 
     return (
         
-        <div>
+        <div className="dashboardDiv">
+          <header>            
             <h1>Dashboard</h1>
             <button onClick={()=>{
                 sessionStorage.setItem('loggedIn','No')
                 history.push('/')
             }} className="signout">Sign Out</button>
+            </header>
+
 
     <>
 

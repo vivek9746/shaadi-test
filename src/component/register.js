@@ -21,8 +21,9 @@ function Register() {
       e.preventDefault()
     }
     return (
+        <div className="loginParent">
 
-        <div>
+        <div className="formParent">
             <form>
                 <h1>Register</h1>
                 <h4>Name</h4>
@@ -35,10 +36,11 @@ function Register() {
             }}/>
              <div className="parentOfLogin">
             <button className="registerButton" type="submit" onClick={(e)=>createUser(e)}>Register</button>
-            <Link to="/">Login</Link>
+            <Link to="/"><button className="altButton">Login</button></Link>
             </div>
             </form>
             
+        </div>
         </div>
     )
 }

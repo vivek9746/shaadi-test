@@ -15,9 +15,10 @@ export default function useUsersearch(query, pageNumber) {
       method: 'GET',
       url: 'https://randomuser.me/api',
       params: { page: pageNumber,
-      results:'30',
+      results:'10',
       seed: 'abc' },
-      cancelToken: new axios.CancelToken(c => cancel = c)
+      cancelToken: new axios.CancelToken(c => cancel = c),
+      delay:1000
     }).then(res => {
       setUsers(prevusers => {
         // return [...new Set([...prevusers, ...res.data.results.map(b => b)])]

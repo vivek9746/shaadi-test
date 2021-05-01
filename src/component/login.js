@@ -28,7 +28,8 @@ function Login() {
         e.preventDefault();
     }
     return (
-        <div>
+        <div className="loginParent">
+        <div className="formParent">
             <form>
                 <h1>Login</h1>
                 <h4>Name</h4>
@@ -43,11 +44,12 @@ function Login() {
             <button className="loginButton" type="submit" onClick={(e)=>{
                 login(name,password,e)
             }}>Login</button>
-              <Link to="/register"><div>Register</div></Link>
+              <Link to="/register"><button className="altButton">Register</button></Link>
             </div>
             </form>
             
             
+        </div>
         </div>
     )
 }

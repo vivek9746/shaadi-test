@@ -1,36 +1,93 @@
+
 form{
     width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+
+ 
 
 }
 form input{
-    width: 100%;
-    font-size: clamp(20px, 4vw, 90px);
-    
-}
-.parentOfLogin{
-    position: relative;
-}
-.loginButton{
-    position: absolute;
-    right: 0;
-    margin-top: 2em;
-    color: white;
-    padding: 1em 3em;
-    background-color: rgb(80, 145, 90);
+
+    border-radius: 4px;
     outline: none;
     border: none;
+    padding: 1em 1em;
+    /* font-size: clamp(20px,5vw,30px); */
+    
+}
+.loginParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: url('https://wallpaperaccess.com/full/1677778.jpg');
+
+}
+h4{
+font-weight: 400;
+}
+.formParent{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(245, 244, 244,0.25);
+    padding: 2em;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+}
+.parentOfLogin{
+    /* position: relative; */
+    margin-top: 2em;
+    /* border: 2px solid white; */
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+}
+.altButton{
+
+    
+    color: white;
+    padding: 1em 3em;
+    /* background-color: rgb(71, 170, 145); */
+    outline: none;
+    background: transparent;
+    border:1px solid white;
+    /* border: none; */
+    margin-right: 2em;
+    border-radius: 8px;
+}
+.loginButton{
+    /* position: absolute; */
+    right: 0;
+    
+    color: white;
+    padding: 1em 3em;
+    background-color: rgb(87, 64, 216);
+    outline: none;
+    border: none;
+   
     border-radius: 8px;
     
 }
 .loginButton:hover{
     cursor: pointer;
-    background-color: rgb(72, 165, 87);
+    
+    background-color: rgb(107, 85, 233);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+}
+.altButton:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255,0.25);
     box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
 }
 .registerButton{
-    position: absolute;
-    right: 0;
-    margin-top: 2em;
+
     color: white;
     padding: 1em 3em;
     background-color: rgb(172, 150, 80);
@@ -43,3 +100,20 @@ form input{
     background-color: rgb(201, 176, 95);
     box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
 }
+
+
+
+
+
+
+
+
+/* ***************************MEDIA QUERIES**************************************************** */
+
+@media screen and (max-width: 400px) {
+    
+.formParent{
+    height: 100%;
+    width: 100%;
+}
+  }
